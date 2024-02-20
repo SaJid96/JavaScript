@@ -1,8 +1,8 @@
 //console.log(2+ +5+ '2');//it will act as integer then concat with string
 //console.log('2'+3 +5)// it will consider it as string
 
-let gameCounter = 100
-++gameCounter;
+// let gameCounter = 100
+// ++gameCounter;
 // console.log(gameCounter);
 
 
@@ -28,5 +28,32 @@ let gameCounter = 100
 
 // ===  strict check it check values as well as data types
 //== here type conversiion will happen
-console.log('2' == 2);
-console.log("2" === 2);
+// console.log('2' == 2);
+// console.log("2" === 2);
+
+
+
+/**
+ * Memory in JS
+ * 
+ * stack (primitive) heap (non-primitive)
+ * in stack we get copy  of the orginal  value where as in heap we get the refrence of actual value 
+ */
+
+
+let stay="banglore"
+
+let PG=stay
+console.log(PG);
+
+
+let userOne={
+    email:'sajid@gmail.com',
+    id:1
+}
+
+let userTwo=userOne
+
+userTwo.id=5
+
+console.log(userOne,userTwo);

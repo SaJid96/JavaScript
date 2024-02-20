@@ -1,0 +1,54 @@
+// const score= 400;
+// console.log(score);
+
+// const  balance= new Number(100)
+
+// console.log(balance);
+// console.log(balance.toString());
+// console.log(balance.toString().length);
+// console.log(balance.toFixed(2));
+
+
+// const otherNumber=78.8878
+// console.log(otherNumber.toPrecision(3));
+
+// const huge=10000000
+
+// console.log(huge.toLocaleString());
+// console.log(huge.toLocaleString('en-IN'));
+
+
+
+
+/**
+ *  ---------------------------------MATHS---------------------
+ * it's an object in javascript 
+ */
+
+
+// console.log(Math);
+// console.log(Math.abs(-5));
+// console.log(Math.round(5.9));
+// console.log(Math.ceil(5.2));
+// console.log(Math.floor(5.9));
+// console.log(Math.max(5,7,9,88));
+// console.log(Math.min(5,7,9,88));
+
+
+
+
+
+
+
+// console.log(Math.random());
+console.log(Math.round((Math.random()* 10) + 1));
+
+const min=10;
+const max=20;
+
+console.log(Math.floor(Math.random() * (max -min + 1) + min));
+
+
+
+
+
